@@ -1,3 +1,7 @@
+/*Dylan Vander Berg
+ * Chapter 1a
+ * Ideal Body Weight
+ */
 package chapter1a;
 
 public class IdealBodyWeight {

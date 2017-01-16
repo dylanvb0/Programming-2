@@ -21,7 +21,7 @@ public class MetabolicEquivalents {
 		double basketballCals = .0175 * BASKETBALL * weightKG * BASKETBALLMINS;
 		double sleepingCals = .0175 * SLEEPING * weightKG * SLEEPINGMINS;
 		double totalCals = runningCals + basketballCals + sleepingCals;
-		System.out.println("You burn " + totalCals);
+		System.out.println("You burn " + totalCals + " calories from " + RUNNINGMINS + " minutes of running, " + BASKETBALLMINS + " minutes of basketball, and " + SLEEPINGMINS + " minutes of sleeping.");
 	}
 
 }
