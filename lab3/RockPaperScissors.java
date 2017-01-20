@@ -16,9 +16,9 @@ public class RockPaperScissors {
 		int gamesLost = 0;
 		Choice humanChoice = Choice.ROCK;
 		Choice computerChoice = Choice.ROCK;
-		while(gamesWon + gamesLost < 5){
+		while(gamesWon + gamesLost < 5){//keep playing as long as there haven't been 5 games that have been played that aren't ties
 			System.out.print("Please select rock, paper, or scissors: (r/p/s) >> " );
-			switch(scanner.nextLine().trim()){
+			switch(scanner.nextLine().trim()){//assign and print choice based on input
 				case "r":
 					humanChoice = Choice.ROCK;
 					System.out.println("You selected Rock");
@@ -35,7 +35,7 @@ public class RockPaperScissors {
 					System.out.println("Invalid Option");
 					System.exit(0);
 			}
-			switch((int)(Math.random() * 3)){
+			switch((int)(Math.random() * 3)){//randomly select a choice for the computer
 				case 0:
 					computerChoice = Choice.ROCK;
 					System.out.println("Computer selected Rock");
@@ -52,6 +52,7 @@ public class RockPaperScissors {
 					System.out.println("Impossible to get here");
 					System.exit(0);
 			}
+			//if statements for all possible outcomes to determine winner
 			if(humanChoice == Choice.ROCK){
 				if(computerChoice == Choice.PAPER){
 					gamesLost++;
@@ -84,9 +85,10 @@ public class RockPaperScissors {
 				}
 			}
 		}
-		System.out.println("You won " + gamesWon + " games and lost " + gamesLost + " games.");
+		System.out.println("You won " + gamesWon + " games and lost " + gamesLost + " games.");//display results
 	}
 	
+	//define enum for 3 choices in rock, paper, scissors
 	private enum Choice{
 		ROCK, PAPER, SCISSORS
 	}
