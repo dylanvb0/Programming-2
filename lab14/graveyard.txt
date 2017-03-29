@@ -1,0 +1,7 @@
+Game 1: Jim, Stanley, Phyllis, Andy, Pam, Michael
+
+Game 2: Pam, Andy, Michael, Phyllis, Stanley, Dwight
+
+Game 3: Phyllis, Andy, Dwight, Stanley, Jim, Pam
+
+Game 4: Stanley, Pam, Jim, Michael, Andy, Phyllis
