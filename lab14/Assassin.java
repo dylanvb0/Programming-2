@@ -1,4 +1,9 @@
-//package lab14;
+/*
+ * Dylan Vander Berg
+ * Lab Exercise 14
+ * 1: Assassin Simulation
+ */
+package lab14;
 
 import java.io.BufferedWriter;
 import java.io.File;

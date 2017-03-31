@@ -1,4 +1,9 @@
-//package lab14;
+/*
+ * Dylan Vander Berg
+ * Lab Exercise 14
+ * 1: Princess Eve's Suitors
+ */
+package lab14;
 
 import java.util.Iterator;
 import java.util.LinkedList;
