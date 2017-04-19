@@ -36,7 +36,7 @@ public class ProgrammingAdvice {
 				first = false;
 			}
 			//Write String to file
-			FileWriter fw = new FileWriter("advice.txt");
+			FileWriter fw = new FileWriter("advice.txt", true);
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(message);
 			bw.close();
